@@ -1,0 +1,8 @@
+.title::before{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(128 0 163);
+    margin-right: 7px;
+}

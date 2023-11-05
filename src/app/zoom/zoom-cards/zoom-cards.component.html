@@ -1,0 +1,12 @@
+<section  class="w-full h-auto mt-14" >
+    <div class="mt-12 grid gap-14 grid-cols-1 px-6 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
+        <a href="" *ngFor="let card of main_card">
+            <div  class="flex flex-col h-auto w-full bg-custom-zoommeetcardcolor py-12  text-custom-zoommeetcolortext-center justify-center items-center rounded-xl gap-5 text-custom-zoommeetcolor hover:text-white hover:bg-custom-zoommeetcolor">
+                <h3 class="text-3xl   mt-3">{{card.proffesions}}</h3>
+                <div class="flex w-20 h-20 rounded-full bg-custom-buttonbgcolor justify-center items-center">
+                    <img class="w-1/2 h-1/2 " src="{{card.img}}" alt="">
+                </div>
+            </div>  
+        </a>
+    </div>  
+</section>
