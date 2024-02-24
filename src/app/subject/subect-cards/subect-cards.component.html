@@ -1,6 +1,6 @@
 <section class="mt-10 grid gap-5 grid-cols-1 px-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
     <div *ngFor="let card of subject_card" class="flex flex-col h-auto w-full bg-white pb-4 transform relative hover:bottom-3 transition-transform duration-1000 ease-in-out">
-      <a href="">
+      <a href="" >
         <figure class="w-full h-2/3">
           <img src="{{card.img}}" alt="" class="w-full h-full">
         </figure>
@@ -24,8 +24,8 @@
             </div>
           </div>
           <div class="flex flex-row w-full h-auto justify-between mt-3">
-            <div class="flex flex-row w-2/3 h-auto gap-2 justify-center items-center text-center">
-              <figure class="w-10 h-10 rounded-full border-b border-custom-buttoncolor">
+            <div class="flex flex-row w-2/3 h-auto gap-2 items-center text-center">
+              <figure class="w-10 h-10 rounded-full border-b border-custom-buttoncolor ml-3">
                 <img class="w-full h-full rounded-full" src="{{card.img}}" alt="">
               </figure>
               <p class="text-xs text-custom-buttoncolor">{{card.name}}</p>
@@ -39,4 +39,5 @@
       </a>
     </div>
   </section>
+
   

@@ -9,5 +9,6 @@ export interface SubectCardService {
   img:string,
   name:string,
   raiting:string,
-
+  text:string,
+  id:number,
 }

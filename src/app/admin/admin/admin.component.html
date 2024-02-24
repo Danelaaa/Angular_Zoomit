@@ -1,0 +1,50 @@
+<form #productsForm="ngForm" (ngSubmit)="onProductCreate(productsForm.value)" action="" class="flex flex-col text-center justify-center h-auto w-full">
+    <h1 class="text-3xl">Subect cards</h1>
+    <div class="mt-7 h-auto w-full grid gap-5 grid-cols-1 px-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
+        <div class="text-left flex flex-col">
+            <label for="">საგანი: </label>
+            <input type="text" name="subject" ngModel>
+        </div>
+    
+        <div class="text-left flex flex-col">
+            <label for="">კლასი: </label>
+            <input type="text" name="class" ngModel>
+        </div>
+    
+        <div class="text-left flex flex-col">
+            <label for="">დრო აქედან: </label>
+            <input type="number" name="time_from" ngModel>
+        </div>
+        <div class="text-left flex flex-col">
+            <label for="">დრო აქამდე: </label>
+            <input type="number" name="time_to" ngModel>
+        </div>
+        <div class="text-left flex flex-col">
+            <label for="">ფასი აქედან: </label>
+            <input type="number" name="price_low" ngModel>
+        </div>
+        <div class="text-left flex flex-col">
+            <label for="">ფასი აქამდე: </label>
+            <input type="number" name="price_max" ngModel>
+        </div>
+        <div class="text-left flex flex-col">
+            <label for="">სურათი: </label>
+            <input type="file" name="img" (change) = "onChangeFile()">
+        </div>
+        <div class="text-left flex flex-col">
+            <label for="">სახელი: </label>
+            <input type="text" name="name" ngModel>
+        </div>
+        <div class="text-left flex flex-col">
+            <label for="">რეიტინგი: </label>
+            <input type="text" name="raiting" ngModel>
+        </div>
+        <div class="text-left flex flex-col">
+            <label for="text">ტექსტი: </label>
+            <textarea name="text" id="text" [(ngModel)]="productsForm.value.text"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Add Product">
+        </div>
+    </div>
+</form>

@@ -1,0 +1,70 @@
+{
+  "locations": [
+    {
+      "subject": "მათემატიკა",
+      "class": "V-VII",
+      "time_from": 45,
+      "time_to": 60,
+      "price_low": 15,
+      "price_max": 50,
+      "img": "../../../assets/pg-35-napoleon-1-dea-getty.webp",
+      "name": "ლუკა",
+      "raiting": "5",
+      "text": "გაამრჯობა მეგობრბო ჩემისახელია ლუკა და მე ვასწავლი მათემტიკას",
+      "id": 1
+    },
+    {
+      "subject": "მათემატიკა",
+      "class": "V-VII",
+      "time_from": 45,
+      "time_to": 60,
+      "price_low": 15,
+      "price_max": 50,
+      "img": "../../../assets/pg-35-napoleon-1-dea-getty.webp",
+      "name": "ლუკა",
+      "raiting": "5",
+      "text": "dddddddddddddddddddddddddddddddddddddddddd",
+      "id": 2
+    },
+    {
+      "subject": "მათემატიკა",
+      "class": "V-VII",
+      "time_from": 45,
+      "time_to": 60,
+      "price_low": 15,
+      "price_max": 50,
+      "img": "../../../assets/pg-35-napoleon-1-dea-getty.webp",
+      "name": "ლუკა",
+      "raiting": "5",
+      "text": "gyvgyvgv",
+      "id": 3
+    },
+    {
+      "subject": "მათემატიკა",
+      "class": "V-VII",
+      "time_from": 45,
+      "time_to": 60,
+      "price_low": 15,
+      "price_max": 50,
+      "img": "../../../assets/pg-35-napoleon-1-dea-getty.webp",
+      "name": "ლუკა",
+      "raiting": "5",
+      "text": "sssss",
+      "id": 4
+    },
+    {
+      "subject": "მათემატიკა",
+      "class": "V-VII",
+      "time_from": 45,
+      "time_to": 60,
+      "price_low": 15,
+      "price_max": 50,
+      "img": "../../../assets/pg-35-napoleon-1-dea-getty.webp",
+      "name": "ლუკა",
+      "raiting": "5",
+      "text": "dfdff",
+      "id": 5
+    }
+    
+  ]
+}

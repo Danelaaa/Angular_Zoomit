@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
@@ -15,6 +15,25 @@ import { PopularZoomCardsComponent } from './popular-zoom/popular-zoom-cards/pop
 import { ProffesionalsMainComponent } from './proffesionals/proffesionals-main/proffesionals-main.component';
 import { ProffesionalsMainCardsComponent } from './proffesionals/proffesionals-main-cards/proffesionals-main-cards.component';
 import { FooterMainComponent } from './footer/footer-main/footer-main.component';
+import { AdminComponent } from './admin/admin/admin.component';
+import { RouterModule, Routes } from '@angular/router';
+import { UserComponent } from './user/user/user.component';
+import { FormsModule } from '@angular/forms';
+
+
+const routes: Routes = [
+  { path: '', redirectTo:'home',pathMatch:'full',
+  },
+  { path: 'home', 
+    component: UserComponent, 
+  },
+  { path: 'admin', 
+    component: AdminComponent, 
+  },
+  
+  
+];
+
 
 @NgModule({
   declarations: [
@@ -31,13 +50,20 @@ import { FooterMainComponent } from './footer/footer-main/footer-main.component'
     ProffesionalsMainComponent,
     ProffesionalsMainCardsComponent,
     FooterMainComponent,
-    
+    AdminComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    FormsModule,
+    RouterModule.forRoot(routes),
   ],
   providers: [],
   bootstrap: [AppComponent]
+  
 })
+
+
 export class AppModule { }
+export class AppHttpModule { }
