@@ -2,7 +2,8 @@
 
 `npm install` `json-server --watch db.json` `ng serve`
 
-![Uploading screencapture-localhost-4200-home-2024-02-24-21_45_03.png…]()
+![screencapture-localhost-4200-home-2024-02-24-21_45_03](https://github.com/Danelaaa/Angular_Zoomit/assets/76698378/5daef9cb-ac78-494c-9f6f-eba1f15d0c83)
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
