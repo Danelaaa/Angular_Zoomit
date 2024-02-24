@@ -1,5 +1,10 @@
 # Zoomit
 
+`npm install` `json-server --watch db.json` `ng serve`
+
+![Uploading screencapture-localhost-4200-home-2024-02-24-21_45_03.png…]()
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
 
 ## Development server
